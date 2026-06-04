@@ -18,7 +18,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get("http://127.0.0.1:8000/api/customers/2/")
+      .get("http://127.0.0.1:8000/api/customers/4/")
       .then((res) => {
         setCustomer(res.data);
       })
